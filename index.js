@@ -14,9 +14,10 @@ import {
     Image,
     Text,
     TouchableHighlight,
-    ViewPropTypes as RNViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
+
+import { ViewPropTypes as RNViewPropTypes } from 'deprecated-react-native-prop-types';
 
 const ViewPropTypes = RNViewPropTypes || View.propTypes;
 
